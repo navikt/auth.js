@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "target": "es2016",
+        "lib": ["dom", "dom.iterable", "esnext"],
+        "module": "commonjs",
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "strict": true,
+        "strictNullChecks": true,
+        "skipLibCheck": true,
+        "outDir": "dist"
+    },
+    "exclude": ["src/__tests__/**", "src/testUtils/**", "jest.setup.ts"]
+}
